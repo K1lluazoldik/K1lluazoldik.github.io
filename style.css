@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    margin:0;
+    background-color: #2A3680;
+    color:white;
+    font-family: "Inter", sans-serif;
+}
+header{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:100%;
+    background-color: #D9D9D9;
+    gap:200px;
+}
+nav{
+    font-size: 24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 300px;   
+    font-style: italic;
+    text-transform: uppercase;
+}
+a{
+    color: black;
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}
+.Tournament p{
+    width: 400px;
+}
+.Tur-items>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5%;
+
+}
+.Tournament>h1{
+    background-color: #D9D9D9;
+    text-align: center;
+    padding:20px;
+    color:black;
+}
+.line{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 32px;
+}
+.time>p{
+    text-align: center;
+    width: 400px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+}
+
+.news>h1{
+    background-color: #D9D9D9;
+    text-align: center;
+    padding:20px;
+    color:black;
+}
+.news>h2{
+    text-align: center;
+}
+.news>p{
+    text-align: center;
+}
+.spirit{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+.spirit>p{
+    width: 400px;
+}
+.spirit>img{
+    height:300px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    background-color: white;
+}
+footer img{
+    width: 64px;
+}
+footer a{
+    text-decoration: none;
+}
